@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="Security" by="" slide="1" embed="1">
+<article>
+<s h="Security">
+
+<s h="認証">
+<frame title="\insertsubsection">
+<img src="password.jpg" scale=".4"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="brute-force attack(総当たり攻撃)">
+	考えうるすべての文字の組み合わせをパスワードとして試す
+</block>
+<!-- TODO: PikaZipでのbrute-force attack画像 -->
+</frame>
+
+<!--<frame title="\insertsubsection">
+<block class="example" title="Q.">
+	教科書p.60欄外「パスワードの注意点」の各項目はなぜ必要か?
+</block>
+</frame>-->
+
+<frame title="\insertsubsection">
+<block title="二段階認証">
+	通常の認証以外に、スマートフォンで表示されるワンタイムパスワードでも認証
+</block>
+<img src="twostep.png" scale=".5"/>
+</frame>
+</s>
+
+<s h="マルウェア">
+<frame title="\insertsubsection">
+<block title="\insertsubsection" class="alert">
+	コンピュータに危害を加えるソフトウェア<br/>
+	例: コンピュータウイルス、スパイウェア、アドウェア
+</block>
+<!-- TODO: マルウェアの種類画像 -->
+</frame>
+
+<!-- TODO: 作成するウイルスの画像 -->
+
+<frame title="\insertsubsection">
+<block title="不正指令電磁的記録に関する罪(刑法)">
+	刑法に「<em>ウイルス作成・提供・取得・保管罪</em>」の規定がある<br/>
+	(「不正指令電磁的記録」がマルウェアのこと)
+</block>
+
+<block title="刑法第168条の二(不正指令電磁的記録作成等)">
+	正当な理由がないのに、人の電子計算機における実行の用に供する目的で、次に掲げる電磁的記録その他の記録を<em>作成</em>し、又は<em>提供</em>した者は、三年以下の懲役又は五十万円以下の罰金に処する。<br/>
+	一  人が電子計算機を使用するに際してその意図に沿うべき動作をさせず、又はその意図に反する動作をさせるべき不正な指令を与える電磁的記録
+</block>
+
+<block title="刑法第168条の三(不正指令電磁的記録取得等)">
+	正当な理由がないのに、前条第一項の目的で、同項各号に掲げる電磁的記録その他の記録を<em>取得</em>し、又は<em>保管</em>した者は、二年以下の懲役又は三十万円以下の罰金に処する。
+</block>
+</frame>
+</s>
+
+<!--<s h="不正アクセス">
+<frame title="\insertsubsection">
+<block title="\insertsubsection">
+	アクセス制御機能を有する特定電子計算機に電気通信回線を通じて当該アクセス制御機能に係る他人の識別符号を入力して当該特定電子計算機を作動させ、当該アクセス制御機能により制限されている特定利用をし得る状態にさせる行為<br/>
+	(<em>不正アクセス禁止法</em>より)
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="\insertsubsection">
+	<em>アクセス制御機能</em>を有する<em>特定電子計算機</em>に<em>電気通信回線</em>を通じて当該<em>アクセス制御機能</em>に係る他人の<em>識別符号</em>を入力して当該<em>特定電子計算機</em>を作動させ、当該<em>アクセス制御機能</em>により制限されている特定利用をし得る状態にさせる行為<br/>
+	(<em>不正アクセス禁止法</em>より)
+</block>
+
+<block title="\insertsubsection">
+	<em>ログイン</em>機能を有する<em>コンピュータ</em>に<em>インターネット</em>を通じてその<em>ログイン</em>機能に係る他人の<em>パスワード</em>を入力してその<em>コンピュータ</em>を作動させ、その<em>ログイン</em>機能により制限されている特定利用をし得る状態にさせる行為
+</block>
+</frame>
+
+</s>-->
+<!-- TODO: フィッシング詐欺サイトの画像 -->
+
+<s h="DoS(Denial of Service)攻撃">
+<frame title="\insertsubsection">
+<block title="\insertsubsection">
+	大量のリクエストによりサービスを利用できなくする攻撃<br/>
+	別名:「F5アタック」
+</block>
+<!-- TODO: DoS攻撃の画像 -->
+</frame>
+</s>
+
+<frame title="\insertsection">
+<img src="incident-hide.png" scale=".5"/>
+</frame>
+
+<frame title="\insertsection">
+<img src="incident.png" scale=".5"/>
+</frame>
+
+<s h="ヒューマンエラー">
+<frame title="\insertsubsection">
+<block title="\insertsubsection" class="alert">
+	意図しない結果を生じる<alert>人間の</alert>行為<br/>
+	例: <em>誤操作</em>、<em>管理ミス</em>、<em>紛失</em>、<em>設定ミス</em>
+</block>
+
+<block title="Q." class="example">
+	ヒューマンエラーを防ぐには、どうすればよいか?
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="ヒューマンエラーを防ぐには?">
+	<ul>
+		<li><alert>誤操作が生じないようなデザイン</alert>にする</li>
+		<li>セキュリティポリシーを<em>文書化</em>する</li>
+		<li>ミスが生じることをあらかじめ<em>想定</em>しておく</li>
+		<li><em>ミスが生じたときの対応</em>をあらかじめ決めておく</li>
+	</ul>
+</block>
+</frame>
+</s>
+
+<s h="個人情報">
+<frame title="\insertsubsection">
+<block title="\insertsubsection" class="alert">
+	「<alert>個人情報</alert>」とは、個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述により<alert>特定の個人を識別できる</alert>もの(<alert>他の情報と容易に照合でき、それにより特定の個人を識別</alert>できるものを含む)<br/>
+	(個人情報保護法第2条)
+</block>
+<img src="personality-individual.svg" scale=".3"/>
+</frame>
+
+<!-- TODO: 共通ポイントによる個人情報の扱い -->
+
+<frame title="\insertsubsection">
+<block title="プライバシー(privacy)" class="alert">
+	他人に知られたくない<alert>私的な情報</alert>
+	<!-- 「黒歴史」 -->
+</block>
+
+<block title="プライバシー権" class="alert">
+	プライバシーの公開を<alert>制限・管理</alert>する権利
+	<ul>
+		<li><alert>肖像権</alert>: 顔写真などの<ruby r="しょうぞう">肖像</ruby>に関するプライバシー権</li>
+		<li><em>忘れられる権利</em>: プライバシーの削除に関するプライバシー権</li>
+	</ul>
+</block>
+
+<block title="Q." class="example">
+	SNSへ他者の肖像を無許可で掲載するのが、問題となるのはなぜか?
+</block>
+<!-- TODO: 肖像権の図 -->
+</frame>
+</s>
+
+
+<s h="冗長性">
+<frame title="\insertsubsection">
+<multicols>
+<column width="7cm">
+<block title="\insertsubsection" class="alert">
+	必要最低限のものに加えて、<em>余分や重複</em>がある状態
+	<ul>
+		<li><alert>誤り検出・訂正</alert>(p.65)<br/>
+			冗長性を<em>加え</em>て、<em>確実に</em>データを送る</li>
+		<li><alert>圧縮</alert>(p.104-105)<br/>
+			冗長性を<em>除い</em>て、<em>高速に</em>データを送る</li>
+	</ul>
+</block>
+</column>
+<column width="4cm">
+<img src="shannon.jpg" scale=".5" title="Claude Shannon" n="fig:shannon"/>
+</column>
+</multicols>
+</frame>
+</s>
+</s>
+</article>
+</log>

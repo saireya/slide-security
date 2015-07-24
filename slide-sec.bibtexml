@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
+<file xmlns="http://bibtexml.sf.net/">
+
+<entry id="twostep"><misc>
+	<author>Google</author>
+	<title>Google 認証システム</title>
+	<url>https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2</url>
+</misc></entry>
+
+<entry id="shannon"><misc>
+	<author>Information theory founders</author>
+	<title>Claude Elwood Shannon</title>
+	<url>http://it-science.net/shannon.html</url>
+</misc></entry>
+</file>
