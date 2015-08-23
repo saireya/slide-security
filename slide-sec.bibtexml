@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
 <file xmlns="http://bibtexml.sf.net/">
 
+<entry id="password"><misc>
+	<author>IPA</author>
+	<title>パスワード－もっと強くキミを守りたい－</title>
+	<url>https://www.ipa.go.jp/security/keihatsu/munekyun-pw</url>
+</misc></entry>
+
 <entry id="twostep"><misc>
 	<author>Google</author>
 	<title>Google 認証システム</title>
@@ -12,5 +18,11 @@
 	<author>Information theory founders</author>
 	<title>Claude Elwood Shannon</title>
 	<url>http://it-science.net/shannon.html</url>
+</misc></entry>
+
+<entry id="password"><misc>
+	<author>NPO 日本ネットワークセキュリティ協会</author>
+	<title>2013年情報セキュリティインシデントに関する調査報告書~個人情報漏えい編~</title>
+	<url>http://www.jnsa.org/result/incident</url>
 </misc></entry>
 </file>
