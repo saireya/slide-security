@@ -2,12 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
 <file xmlns="http://bibtexml.sf.net/">
 
-<entry id="oxygen"><misc>
-	<author>Wikimedia Commons</author>
-	<title>Category:Oxygen 4.8.0</title>
-	<url>http://commons.wikimedia.org/wiki/Category:Oxygen_4.8.0</url>
-</misc></entry>
-
 <entry id="enigma"><misc>
 	<author>Greg Goebel</author>
 	<title>British Codebreakers In World War II - Vectors</title>
@@ -24,6 +18,12 @@
 	<author>dagobert83</author>
 	<title>Clipart - female user icon</title>
 	<url>https://openclipart.org/detail/1646/female-user-icon-by-dagobert83</url>
+</misc></entry>
+
+<entry id="oxygen"><misc>
+	<author>KDE</author>
+	<title>Oxygen Icons</title>
+	<url>http://www.kde.org</url>
 </misc></entry>
 
 </file>
