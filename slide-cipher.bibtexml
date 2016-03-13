@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
+<file xmlns="http://bibtexml.sf.net/">
+
+<entry id="enigma"><misc>
+	<author>Greg Goebel</author>
+	<title>British Codebreakers In World War II - Vectors</title>
+	<url>http://www.vectorsite.net/ttcode_08.html</url>
+</misc></entry>
+
+<entry id="user-male"><misc>
+	<author>acspike</author>
+	<title>Clipart - male user icon</title>
+	<url>https://openclipart.org/detail/4749/male-user-icon-by-acspike</url>
+</misc></entry>
+
+<entry id="user-female"><misc>
+	<author>dagobert83</author>
+	<title>Clipart - female user icon</title>
+	<url>https://openclipart.org/detail/1646/female-user-icon-by-dagobert83</url>
+</misc></entry>
+
+<entry id="oxygen"><misc>
+	<author>KDE</author>
+	<title>Oxygen Icons</title>
+	<url>http://www.kde.org</url>
+</misc></entry>
+
+</file>

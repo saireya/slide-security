@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="暗号" by="" slide="1" embed="1" bib="slide-cipher" biball="1">
+<article>
+<s h="暗号(p.64)">
+<frame title="\insertsection">
+<block>
+<em>第三者には意味が分からないように</em>データを変換するための方法(または、変換されたデータ)のこと
+</block>
+<img src="Four-rotor-enigma.jpg" scale=".4" title="Enigma"/>
+</frame>
+
+<frame title="暗号の安全性">
+<block class="alert">
+暗号は<alert>いつか必ず破られる</alert>(ただの<alert>「時間稼ぎ」</alert>)
+<ul>
+	<li mark="$\because$">どんな暗号でも<em>brute-force attack(総当たり攻撃)</em>が可能</li>
+	<li mark="⇨">暗号の安全性は<alert>「どれだけ長く攻撃に耐えられるか」</alert>で決まる</li>
+</ul>
+</block>
+
+<block title="暗号が脆弱になる要因" class="example">
+<ul>
+	<li>より<em>効率的な攻撃方法</em>が見つかる</li>
+	<!-- e.g. 辞書の利用、人間の使うパスワードのエントロピー -->
+	<li>コンピュータの<em>計算速度が向上</em>する</li>
+	<!-- e.g. Mooreの法則: 2年で計算速度が倍に -->
+</ul>
+</block>
+</frame>
+
+<s h="共通鍵暗号(p.66)">
+<frame title="\insertsubsection">
+<block class="alert">
+暗号化と復号を<em>共通の鍵</em>で行う暗号
+</block>
+
+<img src="cipher-common.svg" scale=".45"/>
+</frame>
+
+<frame title="共通鍵暗号による通信">
+<block>
+	Alice: 送信側, Bob: 受信側
+</block>
+<img src="delivery-common.svg" scale=".6"/>
+</frame>
+
+<frame title="鍵配送問題" class="alert">
+<block>
+	共通鍵暗号では、<alert>鍵を事前に安全に相手に渡す手段がない</alert>
+</block>
+<img src="delivery-problem.svg" scale=".6"/>
+</frame>
+
+<frame title="逆関数">
+<block>
+	関数$f$の定義域に含まれるすべての$x$に対して、$g(f(x)) = x$が成り立つとき、$g$を$f$の<alert>逆関数</alert>という
+</block>
+
+<block title="関数の分類" class="example">
+<ol>
+	<li>逆関数があるもの(<alert>可逆</alert>)<br/>
+		例: 掛け算と、割り算
+		</li>
+	<li>逆関数がないもの(<alert>非可逆</alert>)<br/>
+		例: 2で割った余り
+		</li>
+</ol>
+</block>
+</frame>
+
+<frame title="逆関数">
+<block>
+	関数$f$の定義域に含まれるすべての$x$に対して、$g(f(x)) = x$が成り立つとき、$g$を$f$の<alert>逆関数</alert>という
+</block>
+
+<block title="関数の分類" class="example">
+<ol>
+	<li>逆関数があり、簡単に戻せるもの<br/>
+		例: 掛け算と、割り算
+		</li>
+	<li><alert>逆関数があるが、簡単には戻せない</alert>もの<br/>
+		例: 素数の積と、素因数分解
+		</li>
+	<li>逆関数がないもの(<alert>非可逆</alert>)<br/>
+		例: 2で割った余り
+		</li>
+</ol>
+</block>
+</frame>
+
+</s>
+<s h="公開鍵暗号(p.66)">
+<frame title="\insertsubsection">
+<block class="alert">
+対になる2つの鍵(<em>秘密鍵</em>と<em>公開鍵</em>)からなる暗号
+</block>
+<img src="cipher-public.svg" scale=".45"/>
+</frame>
+
+<frame title="公開鍵暗号による通信">
+<block>
+	Alice: 送信側, Bob: 受信側
+	<ul>
+		<li>メッセージを<alert>送る</alert>ときは、<alert>相手の公開鍵</alert>で暗号化</li>
+		<li>メッセージを<alert>受け取った</alert>ときは、<alert>自分の秘密鍵</alert>で復号</li>
+	</ul>
+</block>
+<img src="delivery-public.svg" scale=".6"/>
+</frame>
+
+</s>
+<s h="ディジタル署名(p.67)">
+<frame title="\insertsubsection">
+<block class="alert">
+データが「署名者から送られていること」「改<ruby r="ざん">竄</ruby>されていないこと」を保証
+<ul>
+	<li><alert>署名する</alert>ときは、<alert>自分の秘密鍵</alert>で暗号化</li>
+	<li>署名を<alert>検証する</alert>ときは、<alert>相手の公開鍵</alert>で復号</li>
+</ul>
+</block>
+<img src="cipher-sign.svg" scale=".4"/>
+</frame>
+
+
+</s>
+</s>
+<s h="まとめ">
+<frame title="\insertsection">
+<block>
+<ul>
+	<li>暗号はいつか必ず破られる!</li>
+	<li><alert>共通鍵</alert>暗号: 暗号化と復号に<em>同じ</em>鍵を用いる</li>
+	<li><alert>公開鍵</alert>暗号: 暗号化と復号に<em>別の</em>鍵を用いる</li>
+	<li>公開鍵暗号(のうちRSA暗号)は、素因数分解の困難さを利用する</li>
+	<li>公開鍵暗号を応用すれば、誰が作ったデータかを<alert>署名</alert>することが可能</li>
+</ul>
+</block>
+</frame>
+</s>
+</article>
+</log>
