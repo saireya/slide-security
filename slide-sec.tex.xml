@@ -176,8 +176,8 @@
 </frame>
 </s>
 
-<s h="暗号(p.64)">
-<frame title="\insertsection">
+<s h="暗号">
+<frame title="暗号(p.64)">
 <block>
 <em>第三者には意味が分からないように</em>データを変換するための方法(または、変換されたデータ)のこと
 </block>
@@ -203,8 +203,8 @@
 </block>
 </frame>
 
-<s h="共通鍵暗号(p.66)">
-<frame title="\insertsubsection">
+<s h="共通鍵暗号">
+<frame title="共通鍵暗号(p.66)">
 <block class="alert">
 暗号化と復号を<em>共通の鍵</em>で行う暗号
 </block>
@@ -264,8 +264,8 @@
 </frame>
 
 </s>
-<s h="公開鍵暗号(p.66)">
-<frame title="\insertsubsection">
+<s h="公開鍵暗号">
+<frame title="公開鍵暗号(p.66)">
 <block class="alert">
 対になる2つの鍵(<em>秘密鍵</em>と<em>公開鍵</em>)からなる暗号
 </block>
@@ -284,8 +284,8 @@
 </frame>
 
 </s>
-<s h="ディジタル署名(p.67)">
-<frame title="\insertsubsection">
+<s h="ディジタル署名">
+<frame title="ディジタル署名(p.67)">
 <block class="alert">
 データが「署名者から送られていること」「改<ruby r="ざん">竄</ruby>されていないこと」を保証
 <ul>
@@ -300,7 +300,7 @@
 </s>
 </s>
 <s h="まとめ">
-<frame title="\insertsection">
+<frame title="まとめ">
 <block>
 <ul>
 	<li>暗号はいつか必ず破られる!</li>
