@@ -4,32 +4,6 @@
 <article>
 <s h="Security">
 
-<s h="認証">
-<frame title="\insertsubsection">
-<img src="password.jpg" scale=".4"/>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="brute-force attack(総当たり攻撃)">
-	考えうるすべての文字の組み合わせをパスワードとして試す
-</block>
-<!-- TODO: PikaZipでのbrute-force attack画像 -->
-</frame>
-
-<!--<frame title="\insertsubsection">
-<block class="example" title="Q.">
-	教科書p.60欄外「パスワードの注意点」の各項目はなぜ必要か?
-</block>
-</frame>-->
-
-<frame title="\insertsubsection">
-<block title="二段階認証">
-	通常の認証以外に、スマートフォンで表示されるワンタイムパスワードでも認証
-</block>
-<img src="twostep.png" scale=".5"/>
-</frame>
-</s>
-
 <s h="マルウェア">
 <frame title="\insertsubsection">
 <block title="\insertsubsection" class="alert">
@@ -55,6 +29,32 @@
 <block title="刑法第168条の三(不正指令電磁的記録取得等)">
 	正当な理由がないのに、前条第一項の目的で、同項各号に掲げる電磁的記録その他の記録を<em>取得</em>し、又は<em>保管</em>した者は、二年以下の懲役又は三十万円以下の罰金に処する。
 </block>
+</frame>
+</s>
+
+<s h="認証">
+<frame title="\insertsubsection">
+<img src="password.jpg" scale=".4"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="brute-force attack(総当たり攻撃)">
+	考えうるすべての文字の組み合わせをパスワードとして試す
+</block>
+<!-- TODO: PikaZipでのbrute-force attack画像 -->
+</frame>
+
+<!--<frame title="\insertsubsection">
+<block class="example" title="Q.">
+	教科書p.60欄外「パスワードの注意点」の各項目はなぜ必要か?
+</block>
+</frame>-->
+
+<frame title="\insertsubsection">
+<block title="二段階認証">
+	通常の認証以外に、スマートフォンで表示されるワンタイムパスワードでも認証
+</block>
+<img src="twostep.png" scale=".5"/>
 </frame>
 </s>
 
