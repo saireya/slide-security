@@ -13,6 +13,21 @@
 <!-- TODO: マルウェアの種類画像 -->
 </frame>
 
+<frame title="\insertsubsection">
+<block title="拡張子" class="alert">
+	ファイルの種類を示すために、ファイル名に付加される文字列<br/>
+	例: .docx(Word), .xlsx(Excel), .pptx(PowerPoint), .jpg, .png(画像), .exe(実行ファイル), .bat(バッチファイル)
+</block>
+
+<block title="拡張子の例">
+	<ul>
+		<li>.docx(Word), .xlsx(Excel), .pptx(PowerPoint)</li>
+		<li>.jpg(写真), .png(画像), .pdf(電子文書)</li>
+		<li>.exe(実行ファイル), .bat(バッチファイル)</li>
+	</ul>
+</block>
+</frame>
+
 <!-- TODO: 作成するウイルスの画像 -->
 
 <frame title="\insertsubsection">
