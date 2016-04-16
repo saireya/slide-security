@@ -15,8 +15,7 @@
 
 <frame title="\insertsubsection">
 <block title="拡張子" class="alert">
-	ファイルの種類を示すために、ファイル名に付加される文字列<br/>
-	例: .docx(Word), .xlsx(Excel), .pptx(PowerPoint), .jpg, .png(画像), .exe(実行ファイル), .bat(バッチファイル)
+	ファイルの種類を示すために、ファイル名に付加される文字列
 </block>
 
 <block title="拡張子の例">
