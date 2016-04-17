@@ -4,7 +4,7 @@
 <article>
 <s h="Security">
 
-<s h="マルウェア">
+<s h="マルウェア(p.60)">
 <frame title="\insertsubsection">
 <block title="\insertsubsection" class="alert">
 	コンピュータに危害を加えるソフトウェア<br/>
@@ -14,7 +14,7 @@
 </frame>
 
 <frame title="\insertsubsection">
-<block title="拡張子" class="alert">
+<block title="拡張子(p.38)" class="alert">
 	ファイルの種類を示すために、ファイル名に付加される文字列
 </block>
 
