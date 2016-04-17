@@ -4,9 +4,9 @@
 <article>
 <s h="Security">
 
-<s h="マルウェア(p.60)">
+<s h="マルウェア">
 <frame title="\insertsubsection">
-<block title="\insertsubsection" class="alert">
+<block title="マルウェア(p.60)" class="alert">
 	コンピュータに危害を加えるソフトウェア<br/>
 	例: コンピュータウイルス、スパイウェア、アドウェア
 </block>
