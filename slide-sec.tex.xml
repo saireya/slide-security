@@ -90,7 +90,6 @@
 </frame>
 </s>
 
-<s h="ヒューマンエラー">
 <frame title="\insertsection">
 <block title="Q." class="example">
 	個人情報が漏洩する原因は?<br/>
@@ -99,6 +98,7 @@
 <img src="incident.svg" scale=".5"/>
 </frame>
 
+<s h="ヒューマンエラー">
 <frame title="\insertsection">
 <block title="\insertsubsection" class="alert">
 	意図しない結果を生じる<alert>人間の</alert>行為<br/>
