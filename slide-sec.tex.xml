@@ -104,35 +104,6 @@
 </frame>
 </s>
 
-<frame title="\insertsection">
-<block title="Q." class="example">
-	個人情報が漏洩する原因は?<br/>
-	(JNSA『2013年情報セキュリティインシデントに関する調査報告書』より)
-</block>
-<img src="incident.svg" scale=".5"/>
-</frame>
-
-<s h="ヒューマンエラー">
-<frame title="\insertsection">
-<block title="\insertsubsection" class="alert">
-	意図しない結果を生じる<alert>人間の</alert>行為<br/>
-	例: <em>誤操作</em>・<em>管理ミス</em>・<em>紛失</em>・<em>設定ミス</em>
-</block>
-<img src="incident2.svg" scale=".5"/>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="ヒューマンエラーを防ぐには?">
-	<ul>
-		<li><alert>誤操作が生じないようなデザイン</alert>にする</li>
-		<li>セキュリティポリシーを<em>文書化</em>する</li>
-		<li>ミスが生じることをあらかじめ<em>想定</em>しておく</li>
-		<li><em>ミスが生じたときの対応</em>をあらかじめ決めておく</li>
-	</ul>
-</block>
-</frame>
-</s>
-
 <s h="個人情報">
 <frame title="\insertsubsection">
 <block title="\insertsubsection" class="alert">
