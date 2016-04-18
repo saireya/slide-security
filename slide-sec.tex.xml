@@ -55,7 +55,7 @@
 <block title="brute-force attack(総当たり攻撃)">
 	考えうるすべての文字の組み合わせをパスワードとして試す
 </block>
-<!-- TODO: PikaZipでのbrute-force attack画像 -->
+<img src="pikazip.png"/>
 </frame>
 
 <!--<frame title="\insertsubsection">
