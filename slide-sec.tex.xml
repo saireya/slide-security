@@ -4,6 +4,75 @@
 <article>
 <s h="Security">
 
+<s h="認証">
+<frame title="\insertsubsection">
+<img src="password.jpg" scale=".4"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="brute-force attack(総当たり攻撃)">
+	考えうるすべての文字の組み合わせをパスワードとして試す
+</block>
+<img src="pikazip.png"/>
+</frame>
+
+<!--<frame title="\insertsubsection">
+<block class="example" title="Q.">
+	教科書p.60欄外「パスワードの注意点」の各項目はなぜ必要か?
+</block>
+</frame>-->
+
+<frame title="\insertsubsection">
+<block title="二段階認証">
+	通常の認証以外に、スマートフォンで表示されるワンタイムパスワードでも認証
+</block>
+<img src="twostep.png" scale=".5"/>
+</frame>
+</s>
+
+<s h="DoS(Denial of Service)攻撃">
+<frame title="\insertsubsection">
+<block title="\insertsubsection">
+	大量のリクエストによりサービスを利用できなくする攻撃<br/>
+	別名:「F5アタック」
+</block>
+<!-- TODO: DoS攻撃の画像 -->
+</frame>
+</s>
+
+<s h="個人情報">
+<frame title="\insertsubsection">
+<block title="\insertsubsection" class="alert">
+	「<alert>個人情報</alert>」とは、個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述により<alert>特定の個人を識別できる</alert>もの(<alert>他の情報と容易に照合でき、それにより特定の個人を識別</alert>できるものを含む)<br/>
+	(個人情報保護法第2条)
+</block>
+<img src="personality-individual.svg" scale=".3"/>
+</frame>
+<!-- TODO: 画像は個性を扱った後でないと、理解できない -->
+
+<!-- TODO: 共通ポイントによる個人情報の扱い -->
+
+<frame title="\insertsubsection">
+<block title="プライバシー(privacy)" class="alert">
+	他人に知られたくない<alert>私的な情報</alert>
+	<!-- 「黒歴史」 -->
+</block>
+
+<block title="プライバシー権" class="alert">
+	プライバシーの公開を<alert>制限・管理</alert>する権利
+	<ul>
+		<li><alert>肖像権</alert>: 顔写真などの<ruby r="しょうぞう">肖像</ruby>に関するプライバシー権</li>
+		<li><em>忘れられる権利</em>: プライバシーの削除に関するプライバシー権</li>
+	</ul>
+</block>
+
+<block title="Q." class="example">
+	SNSへ他者の肖像を無許可で掲載するのが、問題となるのはなぜか?
+</block>
+<!-- TODO: 肖像権の図 -->
+</frame>
+</s>
+
 <s h="マルウェア">
 <frame title="\insertsubsection">
 <block title="マルウェア(p.60)" class="alert">
@@ -46,32 +115,6 @@
 </frame>
 </s>
 
-<s h="認証">
-<frame title="\insertsubsection">
-<img src="password.jpg" scale=".4"/>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="brute-force attack(総当たり攻撃)">
-	考えうるすべての文字の組み合わせをパスワードとして試す
-</block>
-<img src="pikazip.png"/>
-</frame>
-
-<!--<frame title="\insertsubsection">
-<block class="example" title="Q.">
-	教科書p.60欄外「パスワードの注意点」の各項目はなぜ必要か?
-</block>
-</frame>-->
-
-<frame title="\insertsubsection">
-<block title="二段階認証">
-	通常の認証以外に、スマートフォンで表示されるワンタイムパスワードでも認証
-</block>
-<img src="twostep.png" scale=".5"/>
-</frame>
-</s>
-
 <!--<s h="不正アクセス">
 <frame title="\insertsubsection">
 <block title="\insertsubsection">
@@ -93,49 +136,6 @@
 
 </s>-->
 <!-- TODO: フィッシング詐欺サイトの画像 -->
-
-<s h="DoS(Denial of Service)攻撃">
-<frame title="\insertsubsection">
-<block title="\insertsubsection">
-	大量のリクエストによりサービスを利用できなくする攻撃<br/>
-	別名:「F5アタック」
-</block>
-<!-- TODO: DoS攻撃の画像 -->
-</frame>
-</s>
-
-<s h="個人情報">
-<frame title="\insertsubsection">
-<block title="\insertsubsection" class="alert">
-	「<alert>個人情報</alert>」とは、個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述により<alert>特定の個人を識別できる</alert>もの(<alert>他の情報と容易に照合でき、それにより特定の個人を識別</alert>できるものを含む)<br/>
-	(個人情報保護法第2条)
-</block>
-<img src="personality-individual.svg" scale=".3"/>
-</frame>
-
-<!-- TODO: 共通ポイントによる個人情報の扱い -->
-
-<frame title="\insertsubsection">
-<block title="プライバシー(privacy)" class="alert">
-	他人に知られたくない<alert>私的な情報</alert>
-	<!-- 「黒歴史」 -->
-</block>
-
-<block title="プライバシー権" class="alert">
-	プライバシーの公開を<alert>制限・管理</alert>する権利
-	<ul>
-		<li><alert>肖像権</alert>: 顔写真などの<ruby r="しょうぞう">肖像</ruby>に関するプライバシー権</li>
-		<li><em>忘れられる権利</em>: プライバシーの削除に関するプライバシー権</li>
-	</ul>
-</block>
-
-<block title="Q." class="example">
-	SNSへ他者の肖像を無許可で掲載するのが、問題となるのはなぜか?
-</block>
-<!-- TODO: 肖像権の図 -->
-</frame>
-</s>
-
 
 <s h="冗長性">
 <frame title="\insertsubsection">
