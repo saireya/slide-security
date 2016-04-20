@@ -4,6 +4,19 @@
 <article>
 <s h="Security">
 
+<s h="メール">
+<frame title="\insertsubsection">
+<block title="To, CC, BCC">
+	電子メールでは、同じ内容を複数の宛先に送ることができる
+	<ul>
+		<li><alert>宛先(To)</alert>: メールの宛先(複数指定可能)</li>
+		<li><alert>CC</alert>: 同じ内容のメールを他の相手にも送る</li>
+		<li><alert>BCC</alert>: CCと同じだが、<em>他の人からは、その相手に送ったことが分からない</em></li>
+	</ul>
+</block>
+</frame>
+</s>
+
 <s h="認証">
 <frame title="\insertsubsection">
 <img src="password.jpg" scale=".4"/>
