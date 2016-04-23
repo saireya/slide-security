@@ -43,6 +43,48 @@
 </frame>
 </s>
 
+<s h="マルウェア">
+<frame title="\insertsubsection">
+<block title="マルウェア(p.60)" class="alert">
+	コンピュータに危害を加えるソフトウェア<br/>
+	例: コンピュータウイルス、スパイウェア、アドウェア
+</block>
+<!-- TODO: マルウェアの種類画像 -->
+</frame>
+
+<frame title="\insertsubsection">
+<block title="拡張子(p.38)" class="alert">
+	ファイルの種類を示すために、ファイル名に付加される文字列
+</block>
+
+<block title="拡張子の例">
+	<ul>
+		<li>.docx(Word), .xlsx(Excel), .pptx(PowerPoint)</li>
+		<li>.jpg(写真), .png(画像), .pdf(電子文書)</li>
+		<li>.exe(実行ファイル), .bat(バッチファイル)</li>
+	</ul>
+</block>
+</frame>
+
+<!-- TODO: 作成するウイルスの画像 -->
+
+<frame title="\insertsubsection">
+<block title="不正指令電磁的記録に関する罪(刑法)">
+	刑法に「<em>ウイルス作成・提供・取得・保管罪</em>」の規定がある<br/>
+	(「不正指令電磁的記録」がマルウェアのこと)
+</block>
+
+<block title="刑法第168条の二(不正指令電磁的記録作成等)">
+	正当な理由がないのに、人の電子計算機における実行の用に供する目的で、次に掲げる電磁的記録その他の記録を<em>作成</em>し、又は<em>提供</em>した者は、三年以下の懲役又は五十万円以下の罰金に処する。<br/>
+	一  人が電子計算機を使用するに際してその意図に沿うべき動作をさせず、又はその意図に反する動作をさせるべき不正な指令を与える電磁的記録
+</block>
+
+<block title="刑法第168条の三(不正指令電磁的記録取得等)">
+	正当な理由がないのに、前条第一項の目的で、同項各号に掲げる電磁的記録その他の記録を<em>取得</em>し、又は<em>保管</em>した者は、二年以下の懲役又は三十万円以下の罰金に処する。
+</block>
+</frame>
+</s>
+
 <s h="DoS(Denial of Service)攻撃">
 <frame title="\insertsubsection">
 <block title="\insertsubsection">
@@ -83,48 +125,6 @@
 	SNSへ他者の肖像を無許可で掲載するのが、問題となるのはなぜか?
 </block>
 <!-- TODO: 肖像権の図 -->
-</frame>
-</s>
-
-<s h="マルウェア">
-<frame title="\insertsubsection">
-<block title="マルウェア(p.60)" class="alert">
-	コンピュータに危害を加えるソフトウェア<br/>
-	例: コンピュータウイルス、スパイウェア、アドウェア
-</block>
-<!-- TODO: マルウェアの種類画像 -->
-</frame>
-
-<frame title="\insertsubsection">
-<block title="拡張子(p.38)" class="alert">
-	ファイルの種類を示すために、ファイル名に付加される文字列
-</block>
-
-<block title="拡張子の例">
-	<ul>
-		<li>.docx(Word), .xlsx(Excel), .pptx(PowerPoint)</li>
-		<li>.jpg(写真), .png(画像), .pdf(電子文書)</li>
-		<li>.exe(実行ファイル), .bat(バッチファイル)</li>
-	</ul>
-</block>
-</frame>
-
-<!-- TODO: 作成するウイルスの画像 -->
-
-<frame title="\insertsubsection">
-<block title="不正指令電磁的記録に関する罪(刑法)">
-	刑法に「<em>ウイルス作成・提供・取得・保管罪</em>」の規定がある<br/>
-	(「不正指令電磁的記録」がマルウェアのこと)
-</block>
-
-<block title="刑法第168条の二(不正指令電磁的記録作成等)">
-	正当な理由がないのに、人の電子計算機における実行の用に供する目的で、次に掲げる電磁的記録その他の記録を<em>作成</em>し、又は<em>提供</em>した者は、三年以下の懲役又は五十万円以下の罰金に処する。<br/>
-	一  人が電子計算機を使用するに際してその意図に沿うべき動作をさせず、又はその意図に反する動作をさせるべき不正な指令を与える電磁的記録
-</block>
-
-<block title="刑法第168条の三(不正指令電磁的記録取得等)">
-	正当な理由がないのに、前条第一項の目的で、同項各号に掲げる電磁的記録その他の記録を<em>取得</em>し、又は<em>保管</em>した者は、二年以下の懲役又は三十万円以下の罰金に処する。
-</block>
 </frame>
 </s>
 
