@@ -43,6 +43,16 @@
 </frame>
 </s>
 
+<s h="フィッシング">
+<frame title="\insertsubsection">
+<img src="mufg1.png" scale=".25"/>
+</frame>
+
+<frame title="\insertsubsection">
+<img src="mufg2.png" scale=".25"/>
+</frame>
+</s>
+
 <s h="マルウェア">
 <frame title="\insertsubsection">
 <block title="マルウェア(p.60)" class="alert">
@@ -148,16 +158,6 @@
 </frame>
 
 </s>-->
-
-<s h="フィッシング">
-<frame title="\insertsubsection">
-<img src="mufg1.png" scale=".25"/>
-</frame>
-
-<frame title="\insertsubsection">
-<img src="mufg2.png" scale=".25"/>
-</frame>
-</s>
 
 
 <s h="冗長性">
