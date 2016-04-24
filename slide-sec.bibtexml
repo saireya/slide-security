@@ -43,4 +43,16 @@
 	<title>Oxygen Icons</title>
 	<url>http://www.kde.org</url>
 </misc></entry>
+
+<entry id="mufg1"><misc>
+	<author>三菱東京UFJ銀行</author>
+	<title>三菱東京UFJダイレクト</title>
+	<url>http://direct.bk.mufg.jp</url>
+</misc></entry>
+
+<entry id="mufg2"><misc>
+	<author>フィッシング対策協議会</author>
+	<title>三菱東京UFJ銀行をかたるフィッシング(2015/04/15)</title>
+	<url>https://www.antiphishing.jp/news/alert/mufg20150415.html</url>
+</misc></entry>
 </file>
