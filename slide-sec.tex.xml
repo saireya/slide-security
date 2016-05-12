@@ -53,15 +53,7 @@
 </frame>
 </s>
 
-<s h="マルウェア">
-<frame title="\insertsubsection">
-<block title="マルウェア(p.60)" class="alert">
-	コンピュータに危害を加えるソフトウェア<br/>
-	例: コンピュータウイルス、スパイウェア、アドウェア
-</block>
-<!-- TODO: マルウェアの種類画像 -->
-</frame>
-
+<s h="拡張子">
 <frame title="\insertsubsection">
 <block title="拡張子(p.38)" class="alert">
 	ファイルの種類を示すために、ファイル名に付加される文字列
@@ -74,6 +66,16 @@
 		<li>.exe(実行ファイル), .bat(バッチファイル)</li>
 	</ul>
 </block>
+</frame>
+</s>
+
+<s h="マルウェア">
+<frame title="\insertsubsection">
+<block title="マルウェア(p.60)" class="alert">
+	コンピュータに危害を加えるソフトウェア<br/>
+	例: コンピュータウイルス、スパイウェア、アドウェア
+</block>
+<!-- TODO: マルウェアの種類画像 -->
 </frame>
 
 <!-- TODO: 作成するウイルスの画像 -->
