@@ -71,14 +71,15 @@
 
 <s h="マルウェア">
 <frame title="\insertsubsection">
-<block title="マルウェア(p.60)" class="alert">
+<block title="マルウェア(p.60)" class="alert" xml:id="malware">
 	コンピュータに危害を加えるソフトウェア<br/>
 	例: コンピュータウイルス、スパイウェア、アドウェア
 </block>
 </frame>
 
 <frame title="\insertsubsection">
-<img src="virus.png" scale=".25"/>
+<xi:include xpointer="xpointer(id('malware'))"/>
+<img src="virus.png" scale=".5"/>
 </frame>
 
 <frame title="\insertsubsection">
