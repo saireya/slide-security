@@ -8,6 +8,12 @@
 	<url>https://www.ipa.go.jp/security/keihatsu/munekyun-pw</url>
 </misc></entry>
 
+<entry id="pikazip"><misc>
+	<author>pusa</author>
+	<title>pusabugcity</title>
+	<url>http://pikazip.tobiiro.jp/home/home/Welcome.html</url>
+</misc></entry>
+
 <entry id="twostep"><misc>
 	<author>Google</author>
 	<title>Google 認証システム</title>
