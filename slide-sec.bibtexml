@@ -20,6 +20,26 @@
 	<url>https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2</url>
 </misc></entry>
 
+<entry id="soumu"><misc>
+	<author>総務省</author>
+	<title>マイナンバーカードの裏面にQRコードが記載されている趣旨及びカードケースのマスキングの考え方について</title>
+	<url>http://www.soumu.go.jp/main_content/000425732.pdf</url>
+	<year>2016</year>
+</misc></entry>
+
+<entry id="myno"><misc>
+	<author>マイナンバーカード総合サイト</author>
+	<title>マイナンバーカードについて</title>
+	<url>https://www.kojinbango-card.go.jp/kojinbango</url>
+</misc></entry>
+
+<entry id="asahi-key"><misc>
+	<author>朝日新聞</author>
+	<title>合鍵、実物なしにネットで作製 「鍵番号」見せてしまい</title>
+	<url>http://www.asahi.com/articles/ASJBG64ZSJBGUTIL05B.html</url>
+	<year>2016</year>
+</misc></entry>
+
 <entry id="mufg1"><misc>
 	<author>三菱東京UFJ銀行</author>
 	<title>三菱東京UFJダイレクト</title>
