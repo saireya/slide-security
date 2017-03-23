@@ -77,7 +77,9 @@
 </block>
 </frame>
 
-<!-- TODO: 作成するウイルスの画像 -->
+<frame title="\insertsubsection">
+<img src="virus.png" scale=".25"/>
+</frame>
 
 <frame title="\insertsubsection">
 <block title="不正指令電磁的記録に関する罪(刑法)">
