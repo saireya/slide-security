@@ -6,7 +6,7 @@
 
 <s h="メール">
 <frame title="\insertsubsection">
-<block title="To, CC, BCC(p.32)">
+<block title="To, CC, BCC(p.31)">
 	電子メールでは、同じ内容を複数の宛先に送ることができる
 	<ul>
 		<li><alert>宛先(To)</alert>: メールの宛先(複数指定可能)</li>
