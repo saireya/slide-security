@@ -130,36 +130,6 @@
 </block>
 </frame>
 </s>
-
-<s h="DoS(Denial of Service)攻撃">
-<frame title="\insertsubsection">
-<block title="\insertsubsection">
-	大量のリクエストによりサービスを利用できなくする攻撃<br/>
-	別名:「F5アタック」
-</block>
-</frame>
-</s>
-
-<!--<s h="不正アクセス">
-<frame title="\insertsubsection">
-<block title="\insertsubsection">
-	アクセス制御機能を有する特定電子計算機に電気通信回線を通じて当該アクセス制御機能に係る他人の識別符号を入力して当該特定電子計算機を作動させ、当該アクセス制御機能により制限されている特定利用をし得る状態にさせる行為<br/>
-	(<em>不正アクセス禁止法</em>より)
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="\insertsubsection">
-	<em>アクセス制御機能</em>を有する<em>特定電子計算機</em>に<em>電気通信回線</em>を通じて当該<em>アクセス制御機能</em>に係る他人の<em>識別符号</em>を入力して当該<em>特定電子計算機</em>を作動させ、当該<em>アクセス制御機能</em>により制限されている特定利用をし得る状態にさせる行為<br/>
-	(<em>不正アクセス禁止法</em>より)
-</block>
-
-<block title="\insertsubsection">
-	<em>ログイン</em>機能を有する<em>コンピュータ</em>に<em>インターネット</em>を通じてその<em>ログイン</em>機能に係る他人の<em>パスワード</em>を入力してその<em>コンピュータ</em>を作動させ、その<em>ログイン</em>機能により制限されている特定利用をし得る状態にさせる行為
-</block>
-</frame>
-
-</s>-->
 </s>
 </article>
 </log>
